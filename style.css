@@ -35,7 +35,7 @@ section{
 .hero{
     height: 60%;
     width: 100%;
-    /* position: relative; */
+    position: relative;
 }
 .hero img{
     width: 100%;
@@ -48,7 +48,8 @@ section{
     top: 65%;
     color: white;
     font-size: 50px;
-}/*
+    z-index: 3;
+}
 .hero::after{
     content: "";
     background: black;
@@ -58,4 +59,4 @@ section{
     left: 0;
     opacity: 0.3;
     top: 0;
-} */
+}
